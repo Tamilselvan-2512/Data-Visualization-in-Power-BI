@@ -32,6 +32,9 @@ DAX
 Total Revenue = SUM(Price) + SUM(Freight)
 Total Orders = COUNT(Order_id)
 AOV = [Total Revenue] / [Total Orders]
+Is Delayed = IF(Customer_Delivery_Date > Estimated_Delivery_Date, "Delayed", "On Time")
+Average Review Score = AVERAGE(Review_Score)
+Date = DATE(YEAR(Purchase_Date), MONTH(Purchase_Date), DAY(Purchase_Date))
 
 ---
 
@@ -98,13 +101,6 @@ Implemented **Page Navigation Buttons** using Power BI Actions for smooth naviga
 
 ---
 
-## 🔗 Live Dashboard Link
-
-👉 **Power BI Dashboard**  
-https://app.powerbi.com/links/7miSVpx0dQ
-
----
-
 ## 📌 Key Insights
 
 - Identified categories contributing most to revenue  
@@ -114,17 +110,6 @@ https://app.powerbi.com/links/7miSVpx0dQ
 
 ---
 
-## 👤 Author
-
-**P. Tamilselvan**  
-📊 Data Analytics Enthusiast | Lead Technical Recruiter  
-
-- GitHub: https://github.com/Tamilselvan-2512  
-- LinkedIn: https://linkedin.com/in/tamilselvan-p  
-
----
 
 ⭐ *If you find this project useful, feel free to star the repository!*
-Is Delayed = IF(Customer_Delivery_Date > Estimated_Delivery_Date, "Delayed", "On Time")
-Average Review Score = AVERAGE(Review_Score)
-Date = DATE(YEAR(Purchase_Date), MONTH(Purchase_Date), DAY(Purchase_Date))
+
