@@ -28,8 +28,7 @@ To address key business analytics for a retail dataset by designing insightful a
 ---
 
 ## 📊 Key DAX Measures & Calculated Columns
-
-```DAX
+DAX
 Total Revenue = SUM(Price) + SUM(Freight)
 Total Orders = COUNT(Order_id)
 AOV = [Total Revenue] / [Total Orders]
